@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'charter-regular';
+    src: url(../fonts/charter/Charter\ Regular.otf);
+}
+
+@font-face {
+    font-family: 'poppins-light';
+    src: url(../fonts/poppins/Poppins-Light.ttf)
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url(../fonts/poppins/Poppins-Medium.ttf)
+}
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url(../fonts/poppins/Poppins-Bold.ttf);
+}
+
+#navbar {
+    font-family: 'poppins-light';
+}
+
+main, p {
+    font-family: 'charter-regular';
+}
+
+
+h1,h2,h3,h4 {
+    font-family: 'poppins-bold';
+}
+
+.footer {
+    font-family: 'poppins-light';
+}
+
+#contact-form {
+    font-family: 'poppins-light';
+}
+
+#contact-description {
+    font-family: 'poppins-light';
+}
+
+.btn-outline-secondary{
+    font-family: 'poppins-medium';
+}
