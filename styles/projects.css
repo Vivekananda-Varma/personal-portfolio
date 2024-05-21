@@ -10,20 +10,20 @@
 }
 
 .project-heading-wrapper {
-    padding: 10% 0;
+    padding: 5% 0;
     width: 100%;
     color: rgb(206, 52, 0);
 }
 
 .project-section-heading {
     text-align: center;
-    font-size: 300px;
+    font-size: 360px;
 }
 
 .project-section-sub-heading {
     margin: -40px 0 !important;
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
     letter-spacing: 0.18em;
 }
 
@@ -45,5 +45,23 @@
     .project-card  img{
         margin: 0 0 !important;
         width: 100% !important;
+    }
+
+    .project-heading-wrapper {
+        padding: 12% 0;
+        width: 100%;
+        color: rgb(206, 52, 0);
+    }
+    
+    .project-section-heading {
+        text-align: center;
+        font-size: 100px;
+    }
+    
+    .project-section-sub-heading {
+        margin: -10px 0 !important;
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: 0.18em;
     }
 }
