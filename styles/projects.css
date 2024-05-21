@@ -9,7 +9,22 @@
     width: 300px !important;
 }
 
+.cover-img-wrapper {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.full-screen-project-img {
+    width: 100%;
+    z-index: -10;
+}
+
 .project-heading-wrapper {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 5% 0;
     width: 100%;
     color: rgb(206, 52, 0);
@@ -21,7 +36,7 @@
 }
 
 .project-section-sub-heading {
-    margin: -40px 0 !important;
+    margin: -70px 0 !important;
     text-align: center;
     font-size: 100px;
     letter-spacing: 0.18em;
