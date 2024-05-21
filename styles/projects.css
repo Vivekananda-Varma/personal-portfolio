@@ -22,7 +22,7 @@
 
 .project-heading-wrapper {
     position: absolute;
-    top: 40%;
+    top: 50%; /* Adjusted to center vertically */
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 5% 0;
@@ -36,7 +36,7 @@
 }
 
 .project-section-sub-heading {
-    margin: -70px 0 !important;
+    margin: -80px 0 !important;
     text-align: center;
     font-size: 100px;
     letter-spacing: 0.18em;
@@ -56,7 +56,6 @@
         width: 60% !important;
     }
 
-
     .project-card  img{
         margin: 0 0 !important;
         width: 100% !important;
@@ -66,6 +65,8 @@
         padding: 12% 0;
         width: 100%;
         color: rgb(206, 52, 0);
+        top: auto; /* Remove top position */
+        transform: translate(-50%, 0); /* Adjust transformation */
     }
     
     .project-section-heading {
