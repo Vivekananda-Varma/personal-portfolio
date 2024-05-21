@@ -1,0 +1,28 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 8%;
+    justify-content: space-between;
+}
+
+.project-card img{
+    width: 300px !important;
+}
+
+.project-heading-wrapper {
+    padding: 10% 0;
+    width: 100%;
+    color: rgb(206, 52, 0);
+}
+
+.project-section-heading {
+    text-align: center;
+    font-size: 300px;
+}
+
+.project-section-sub-heading {
+    margin: -40px 0 !important;
+    text-align: center;
+    font-size: 80px;
+    letter-spacing: 0.18em;
+}

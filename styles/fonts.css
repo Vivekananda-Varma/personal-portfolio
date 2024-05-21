@@ -18,6 +18,17 @@
     src: url(../fonts/poppins/Poppins-Bold.ttf);
 }
 
+@font-face {
+    font-family: 'fk-screamer-bold';
+    src: url(../fonts/fk-screamer/FKScreamerTrial-Bold.otf);
+}
+
+@font-face {
+    font-family: 'fk-screamer-medium';
+    src: url(../fonts/fk-screamer/FKScreamerTrial-Medium.otf);
+}
+
+
 #navbar {
     font-family: 'poppins-light';
 }
@@ -31,18 +42,10 @@ h1,h2,h3,h4 {
     font-family: 'poppins-bold';
 }
 
-.footer {
-    font-family: 'poppins-light';
+.project-section-heading {
+    font-family: 'fk-screamer-bold';
 }
 
-#contact-form {
-    font-family: 'poppins-light';
-}
-
-#contact-description {
-    font-family: 'poppins-light';
-}
-
-.btn-outline-secondary{
-    font-family: 'poppins-medium';
+.project-section-sub-heading {
+    font-family: 'fk-screamer-medium';
 }
