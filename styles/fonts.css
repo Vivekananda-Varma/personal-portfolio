@@ -18,23 +18,13 @@
     src: url(../fonts/poppins/Poppins-Bold.ttf);
 }
 
-@font-face {
-    font-family: 'fk-screamer-bold';
-    src: url(../fonts/fk-screamer/FKScreamerTrial-Bold.otf);
-}
-
-@font-face {
-    font-family: 'fk-screamer-medium';
-    src: url(../fonts/fk-screamer/FKScreamerTrial-Medium.otf);
-}
-
 
 #navbar {
     font-family: 'poppins-light';
 }
 
 main, p {
-    font-family: 'charter-regular';
+    font-family: 'lora-regular';
 }
 
 
@@ -43,9 +33,13 @@ h1,h2,h3,h4 {
 }
 
 .project-section-heading {
-    font-family: 'fk-screamer-bold';
+    font-family: 'poppins-bold';
 }
 
 .project-section-sub-heading {
-    font-family: 'fk-screamer-medium';
+    font-family: 'poppins-medium';
+}
+
+.project-title {
+    font-family: 'poppins-medium';
 }

@@ -5,8 +5,18 @@
     justify-content: space-between;
 }
 
-.project-card img{
+.project-card {
+    color: #000;
+    background-color: rgb(255, 255, 255);
+}
+
+.project-card-img {
     width: 300px !important;
+}
+
+.project-title {
+    text-align: center;
+    font-size: 2rem;
 }
 
 @media (max-width: 992px) {
@@ -19,8 +29,8 @@
     }
 
     .project-card  {
-        margin: 5% 20%;
-        width: 60% !important;
+        margin: 5% 15%;
+        width: 70% !important;
     }
 
     .project-card  img{
