@@ -19,7 +19,7 @@
     height: auto;
     width: 25%;
     color: #fff;
-    background-color: #000000;
+    background-color: #111;
     border-radius: 15px;
 }
 
@@ -38,7 +38,7 @@
 #last-name,
 #email-address,
 #message {
-    background-color:  #0c0c0c;
+    background-color:  #171717;
     color: #ffffff;
     font-size: 0.9rem;
     border: none;
@@ -83,12 +83,7 @@
 
 @media (max-width: 992px) {
     body {
-        background-color: #000000;
-    }
-
-    #navbar {
-        border-bottom: solid 1px #676767;
-        box-shadow: 0 2px 8px 0 rgba(255, 255, 255, 0.926);
+        background-color: #111;
     }
 
     #contact-page-bg-img {
