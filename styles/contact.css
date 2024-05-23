@@ -1,6 +1,6 @@
 #contact-page-bg-img {
     position: absolute;
-    width: 75%;
+    width: 100%;
     right: 0;
     top: 0;
     z-index: -1;
@@ -29,15 +29,16 @@
 }
 
 #contact-description {
+    margin-top: 3%;
     margin-bottom: 10%;
-    font-size: 0.9rem;
+    font-size: 1rem;
 }
 
 #name,
 #last-name,
 #email-address,
 #message {
-    background-color: rgb(18, 18, 18);
+    background-color:  #0c0c0c;
     color: #ffffff;
     font-size: 0.9rem;
     border: none;
@@ -54,11 +55,11 @@
 #last-name::placeholder,
 #email-address::placeholder,
 #message::placeholder {
-    color: rgb(86, 86, 86);
+    color: rgb(65, 65, 65);
 }
 
 #message {
-    height: 8em;
+    height: 7em;
 }
 
 #contact-form-submit-btn {
@@ -83,6 +84,11 @@
 @media (max-width: 992px) {
     body {
         background-color: #000000;
+    }
+
+    #navbar {
+        border-bottom: solid 1px #676767;
+        box-shadow: 0 2px 8px 0 rgba(255, 255, 255, 0.926);
     }
 
     #contact-page-bg-img {
