@@ -43,3 +43,15 @@ h1,h2,h3,h4 {
 .project-title {
     font-family: 'poppins-medium';
 }
+
+#contact-form {
+    font-family: 'poppins-light';
+}
+
+#contact-description {
+    font-family: 'poppins-light';
+}
+
+.btn-outline-secondary{
+    font-family: 'poppins-medium';
+}
