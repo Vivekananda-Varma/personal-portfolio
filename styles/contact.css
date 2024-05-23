@@ -81,6 +81,10 @@
 
 
 @media (max-width: 992px) {
+    body {
+        background-color: #000000;
+    }
+
     #contact-page-bg-img {
         display: none;
     }
@@ -101,7 +105,11 @@
     }
 
     #contact-form-heading {
-        margin-top: 15%;
+        margin-top: 10%;
+    }
+
+    #contact-description {
+        margin-bottom: 15%;
     }
 
     #name,
